@@ -42,12 +42,13 @@
   
 	add_action( 'wp_enqueue_scripts', 'wpb_adding_scripts' ); 
 
-	function mytheme_enqueue_login_style() {
-	    wp_enqueue_style( 'mytheme-options-style', get_template_directory_uri() . '/css/style.css' ); 
-	}
+	//admin login 
+	// function mytheme_enqueue_login_style() {
+	//     wp_enqueue_style( 'mytheme-options-style', get_template_directory_uri() . '/css/style.css' ); 
+	// }
 
-	add_action( 'login_enqueue_scripts', 'mytheme_enqueue_login_style' );
-
+	// add_action( 'login_enqueue_scripts', 'mytheme_enqueue_login_style' );
+	//admin login
 
 
 	function apptodate_custom_logo_setup() {
@@ -130,32 +131,5 @@ function apptodate_register_sidebars() {
 add_action( 'widgets_init', 'apptodate_register_sidebars' );
 
 
-
-
-
-
-// add_filter('upload_mimes','restict_mime'); 
-
-// function restict_mime($mimes) { 
-//     $mimes = array( 
-//                 'mp4' => 'video/mp4', 
-//                 'ogg' => 'video/ogg', 
-//                 'webm' => '	video/webm', 
-//     ); 
-//     return $mimes;
-// }
-
-// add_action( 'current_screen', 'this_screen' );
-
-// function this_screen() {
-
-//     $current_screen = get_current_screen();
-
-//     if( $current_screen->post === "widgets" ) {
-
-//         // Run some code, only on the admin widgets page
-
-//     }
-    
-// }
+remove_filter ('acf_the_content', 'wpautop');
 ?>

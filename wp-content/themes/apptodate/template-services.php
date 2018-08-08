@@ -33,7 +33,7 @@
                                                     <h3 class="post-title font20 bold text-center"><?php echo $services_title; ?></h3>
                                                     <p class="text-center font16 fontgrey reg fix_height_hidden"><?php echo $services_sub_text; ?></p> 
                                                     
-                                                    <p class="project-btn1 relate_pos"><img id="ask" src="<?php echo get_template_directory_uri(); ?>/img/leftarrow_b.png" class="arrow_b_pos"></p>
+                                                    <!-- <p class="project-btn1 relate_pos"><img id="ask" src="<?php echo get_template_directory_uri(); ?>/img/leftarrow_b.png" class="arrow_b_pos"></p> -->
                                                 </div>
                                             </div>
                                         </div>

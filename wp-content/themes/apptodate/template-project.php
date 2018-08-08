@@ -4,7 +4,7 @@
     *
     Template Name: Project
     */
-
+	
     get_header('project'); ?>
     
 
@@ -54,8 +54,8 @@
                                             //echo $value->name;
                                         }
                                     ?> -->
-                                    תיאור של 8 מילים בדיוק של כל הפרוייקט ואם ממש רוצים אפשר גם 12
-
+                                    <?php echo the_field("post_short_description"); ?>
+                                    
                                     </h4>
                                     <p class="project-btn relate_pos"><img src="<?php echo get_template_directory_uri();  ?>/img/leftarrow.png" class="margin_r_10 arrow_pos">לפרוייקט  </p>
                                 </div>

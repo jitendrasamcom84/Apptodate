@@ -62,8 +62,8 @@
                         $about_description = get_field('about_description');
                     ?>
                     <p class="font35 bold"><?php echo $about_title; ?></p>
-                    <p class="font21 margin_b_30 bold"><?php echo substr($about_short,0,60); ?></p>
-                    <p class="txt_pdng font21 line_h45 letter_s2 rtl"><?php echo substr($about_description,0,700); ?></p>
+                    <p class="font21 margin_b_30 bold"><?php echo substr($about_short,0,100); ?></p>
+                    <p class="txt_pdng font21 line_h45 letter_s2 rtl"><?php echo substr($about_description,0,900); ?></p>
 
                 </div>
                 <div class="full_div">

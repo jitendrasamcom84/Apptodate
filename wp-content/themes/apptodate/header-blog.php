@@ -52,9 +52,24 @@
 </head>
 
 <body id="nscroll" <?php body_class(); ?>>
+<div class="title_wrap2">
+        <div class="projects_title blog_temp_page">
+            <div class="wrapper_1040">
+                <h1 class="font46 font_black bolder rtl">Stay Apptodate</h1>
+                <h2 class="font25 fontgrey rtl">כל הכתבות שלנו בדרך לאתר, ממש עוד קצת, ממש  ...</h2>
+            </div>
+            <div class="images_button_parts">
+                <img src="<?php echo get_template_directory_uri() ?>/img/blog_temp_img.png">
+                <p class="mar_t_b font25 rtl">בנתיים ממש נשמח לדבר איתכם </p>
+                <div class="text-center set_pos diff_button">
+                    <a class="font25 rtl" href="#link">דברו איתנו </a>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Page Title  -->
   <div class="container1">
-    <div class="stay_apptodate"> 
+    <!-- <div class="stay_apptodate"> 
        <div class="stay_apptodate_background">
         <div class="container">
            <h2><?php echo get_field('blog_title'); ?></h2>
@@ -82,7 +97,7 @@
            <!-- <span>לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית לורם</span> -->
         </div>
        </div> 
-    </div>
+    </div> 
 
     <div class="full_heder">
       <?php 

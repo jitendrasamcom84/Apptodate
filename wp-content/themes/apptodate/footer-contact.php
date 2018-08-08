@@ -163,7 +163,7 @@
 
         });
     </script>
-
+  
     
    
     <script>
@@ -175,6 +175,9 @@
             jQuery(".hovthis").toggle(".gethov");
         });
 </script> -->
+      
+  
+
 <?php wp_footer(); ?>
 </body>
 

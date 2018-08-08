@@ -25,7 +25,7 @@
 			            <div class="contact_us" style="height: 500px">
 			                <div class="vertical-align-wrap1">
 			                    <div class="vertical-align vertical-align--middle text-center">
-			                        <p class="small_width semibold font25 sm18 text-right dis_inline rtl"><?php echo substr($about_designation,0,100); ?></p>
+			                        <p class="small_width semibold font25 sm18 text-right dis_inline rtl"><?php echo substr($about_designation,0,500); ?></p>
 			                    </div>
 			                </div>
 			            </div>
@@ -36,7 +36,7 @@
 			            <div class="contact_us" style="height: 500px; background-color: #10032e">
 			                <div class="vertical-align-wrap1">
 			                    <div class="vertical-align vertical-align--middle text-center">
-			                        <p class="small_width semibold font25 sm18 font_white text-right dis_inline rtl"><?php echo substr($about_right_description,0,100); ?></p>
+			                        <p class="small_width semibold font25 sm18 font_white text-right dis_inline rtl"><?php echo substr($about_right_description,0,500); ?></p>
 			                    </div>
 			                </div>
 			            </div>
@@ -52,7 +52,7 @@
 			            <div class="contact_us" style="height: 503px; background-color: #10032e">
 			                <div class="vertical-align-wrap1">
 			                    <div class="vertical-align vertical-align--middle text-center">
-			                        <p class="small_width semibold font25 sm18 font_white text-right dis_inline rtl"><?php echo substr($about_second_description, 0,100) ?></p>
+			                        <p class="small_width semibold font25 sm18 font_white text-right dis_inline rtl"><?php echo substr($about_second_description, 0,500) ?></p>
 			                    </div>
 			                </div>
 			            </div>

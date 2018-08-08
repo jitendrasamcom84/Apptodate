@@ -5,29 +5,29 @@
     */
     get_header('blog'); ?>
 
-     <div class="container">
+     <!-- <div class="container">
       <div class="scroll_aritical">
-
+ -->
         <?php
         
-          $page_id = get_the_ID();
+          // $page_id = get_the_ID();
 
-          $args = array(
-            'post_type' => 'post',
-            'post_status' => 'publish'
-          );
+          // $args = array(
+          //   'post_type' => 'post',
+          //   'post_status' => 'publish'
+          // );
 
-          $query = new WP_Query( $args );
+          // $query = new WP_Query( $args );
 
 
-          if ( $query->have_posts() ) {
+          // if ( $query->have_posts() ) {
 
-            // Start looping over the query results.
-            while ( $query->have_posts() ) { $query->the_post();
+          //   // Start looping over the query results.
+          //   while ( $query->have_posts() ) { $query->the_post();
               // Contents of the queried post results go here.
               ?>
 
-                <div class="artical_part_blog_background">
+                <!-- <div class="artical_part_blog_background">
                 <div class="row">
 
                   <div class="col-md-6 col-xs-12 col-sm-6 artical_contant_part">
@@ -50,14 +50,14 @@
                  </div> 
 
                 </div>
-              </div>
+              </div> -->
 
 
           <?php
-            }
-          }
+          //   }
+          // }
 
-
+///////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 

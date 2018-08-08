@@ -49,8 +49,8 @@
     <div class="title_wrap2">
         <div class="projects_title">
             <div class="wrapper_1040">
-                <h1 class="font46 font_black bolder">מה אנחנו עושים</h1>
-                <h2 class="font25 fontgrey">לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית לורם</h2>
+                <h1 class="font46 font_black bolder"><?php echo the_field("title"); ?></h1>
+                <h2 class="font25 fontgrey"><?php echo the_field("short_description"); ?></h2>
             </div>
         </div>
         <div class="clear"></div>
