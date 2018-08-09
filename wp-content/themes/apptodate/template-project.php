@@ -35,12 +35,30 @@
                         // echo "<pre>";
                         // print_r($post_tags);
                         // echo "</pre>";
-                        
+
+
+                        $page_id = get_the_ID(); 
+
+                        $post_id = get_post($page_id);
+                        $id = $post_id->ID;
+                        //echo $id;
+                    
                         
                        
                       ?>
                         <li>
-                            <a href="<?php the_permalink(); ?>" class="loadme" aria-label="Now Project">
+                            <?php 
+                                if($id == "371" || $id == "680" || $id == "707" ){
+                                    ?>
+                                        <a href="<?php the_permalink(); ?>" class="loadme" aria-label="Now Project">
+                                <?php
+                                }
+                                else{
+                                    ?>
+                                    <a href="javascript:void(0)" class="loadme" aria-label="Now Project">
+                                <?php }
+
+                            ?>
                                 <div class="image-wrap">
                                     <img src="<?php the_post_thumbnail_url(); ?>">
                                 </div>
@@ -57,7 +75,13 @@
                                     <?php echo the_field("post_short_description"); ?>
                                     
                                     </h4>
-                                    <p class="project-btn relate_pos"><img src="<?php echo get_template_directory_uri();  ?>/img/leftarrow.png" class="margin_r_10 arrow_pos">לפרוייקט  </p>
+                                        <?php 
+                                            if($id == "371" || $id == "680" || $id == "707" ){
+                                            ?>
+                                                <p class="project-btn relate_pos"><img src="<?php echo get_template_directory_uri();  ?>/img/leftarrow.png" class="margin_r_10 arrow_pos">לפרוייקט  </p>
+                                                <?php 
+                                            }
+                                        ?>
                                 </div>
                             </a>
                         </li>

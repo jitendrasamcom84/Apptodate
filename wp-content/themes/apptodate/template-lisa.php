@@ -4,8 +4,10 @@
     Template Name: Lisa
     */
     get_header("lisa");
+    $background_images = get_template_directory_uri(); 
 ?>
     <div class="container">
+
             <div class="mt10 pull-right ptb50 text-right logo_change">
                 <h3 class="bold font35 colorch">
                     <?php //echo $post->post_title; ?>
@@ -17,7 +19,31 @@
                         <?php endwhile;
                     endif;
                 ?>
+
+            <!-- <div class="lisa_parts_one">
+               <div class="lisa_back_img" style="background-image: url('<?php echo $background_images.'/img/lisa_first_back.png'; ?>');background-repeat: no-repeat; height: 220px; text-align: center; display: flex; margin-top: 140px; align-items: center;background-size: cover;">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/lisa_first_Screen.png">
+                </div>    
+            </div> 
+
+            <div class="lisa_secound_part">
+               <div class="lisa_secound_back" style="background-image: url('<?php echo $background_images.'/img/lisa_secound_back.png'; ?>');background-repeat: no-repeat; height:150px; text-align: center; display: flex; margin-top:400px; align-items: center;background-size: cover;">
+                   
+                   <div class="text_parts"><span>בביטוח חוסכים במחיר !לא בסוכן </span></div>
+                   <img src="<?php echo get_template_directory_uri(); ?>/img/lisa_secound_screen.png">
+               </div>
             </div>
+
+            <div class="lisa_secound_part lisa_thard_part">
+               <div class="lisa_secound_back" style="background-image: url('<?php echo $background_images.'/img/lisa_secound_back.png'; ?>');background-repeat: no-repeat; height:150px; text-align: center; display: flex; margin-top:400px; align-items: center;background-size: cover;">
+                   
+                   <img src="<?php echo get_template_directory_uri(); ?>/img/lisa_thard_screen.png">
+                   <div class="text_parts"><span>,מכל מקום  !כל הזמ  </span></div>
+               </div>
+            </div> -->
+            
+            </div>
+
         </div>
 
         <section class="contents cross_part">

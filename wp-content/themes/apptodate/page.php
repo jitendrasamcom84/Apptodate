@@ -205,8 +205,10 @@
 			                            <div class="item <?php echo $class; ?>">
                                             <div class="table_proparty">
                                             <div class="caption">
+                                               <div class="new_class">
                                                 <h2 class="font_sblue font46 text-center bold"><?php echo $text1; ?></h2>
                                                 <p class="font_gray text-right small_center font25"><?php echo $text2; ?> </p>
+                                               </div>
                                             </div>
                                             <a class="first_slider" href="#">
                                             <div class="thumbnail right">
@@ -282,7 +284,7 @@
                                         <img class="" src="<?php echo $image; ?>" />
                                     </div>
                                 </a>
-                                <div class="dis_inline">
+                                <div class="dis_inline secound_slider_text">
                                     <h2 class="color_white bold font55 margin_t_60 text-center"><?php echo $text1; ?></h2>
                                 </div>
                             </div>
@@ -385,7 +387,7 @@
                                                         <h3 class="font20 bold margin_t_25"><?php echo $name; ?></h3>
                                                         <span class="font16 font_darkgray"><?php echo $designation; ?></span>
 
-                                                        <blockquote>
+                                                        <blockquote class="fix_height">
                                                             <p class="font16 line_h35 italic"><?php echo $massege; ?></p>
                                                         </blockquote>
                                                     </div>
