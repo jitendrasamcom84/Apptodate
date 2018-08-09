@@ -55,12 +55,35 @@
 <div class="title_wrap2">
         <div class="projects_title blog_temp_page">
             <div class="wrapper_1040">
-                <h1 class="font46 font_black bolder rtl">Stay Apptodate</h1>
-                <h2 class="font25 fontgrey rtl">כל הכתבות שלנו בדרך לאתר, ממש עוד קצת, ממש  ...</h2>
+                <h1 class="font46 font_black bolder rtl"><?php echo get_field('blog_title'); ?></h1>
+
+                <?php
+                // Start the loop.
+                while ( have_posts() ) : the_post();
+                  echo "<h2 class='font25 fontgrey rtl'>";
+                      if(get_field('blog-about')):
+                          $blog_about = get_field('blog-about');
+                          echo substr($blog_about,0,75).'...';
+                      endif;
+                  echo "</h2>";
+
+                  // the_content();
+
+                  // if ( comments_open() || get_comments_number() ) {
+                  //     comments_template();
+                  // } 
+
+                  ?>                         
+                  <?php
+                  // End of the loop.
+                endwhile;
+            ?>
+
             </div>
             <div class="images_button_parts">
-                <img src="<?php echo get_template_directory_uri() ?>/img/blog_temp_img.png">
-                <p class="mar_t_b font25 rtl">בנתיים ממש נשמח לדבר איתכם </p>
+              <?php $blog_image = get_field("image"); ?>
+                <img src="<?php echo $blog_image; ?>">
+                <p class="mar_t_b font25 rtl"><?php echo get_field("blog_text"); ?> </p>
                 <div class="text-center set_pos diff_button">
                     <a class="font25 rtl" href="#link">דברו איתנו </a>
                 </div>
