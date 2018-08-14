@@ -249,6 +249,48 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*@font-face {
   font-family:'OpenSansHebrew-Bold';
   src: url('../fonts/OpenSansHebrew-Bold.eot'),
@@ -390,6 +432,48 @@ body {
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1615,6 +1699,48 @@ section {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*-------------------------------*/
 
 
@@ -1814,6 +1940,48 @@ section {
     float: left;
     width: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2450,6 +2618,48 @@ section {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Additional Styles (required)*/
 
 .cls_mainslider .carousel-indicators {
@@ -2526,6 +2736,48 @@ section {
     border: 0;
     background: no-repeat;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2936,6 +3188,17 @@ section {
 .font35 {
     font-size: 35px !important;
     margin-top: 0;
+}
+
+.lisapage .siteorigin-widget-tinymce .font35 span:first-child{
+    font-size: 31px !important;
+    margin-top: 0;
+}
+
+.lisapage .siteorigin-widget-tinymce p{
+    font-size: 24px;
+    font-weight: 500;
+    color: #9D9D9D;
 }
 
 .font37 {
@@ -3749,6 +4012,48 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* show objects being animated */
 
 .animated {
@@ -3769,6 +4074,48 @@ body {
     -o-animation-play-state: running;
     animation-play-state: running;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4109,6 +4456,48 @@ body {
         opacity: 0;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -4741,6 +5130,48 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*a.loadme1 .post-header p{
   padding-left: 0px;
   -webkit-transition: all .2s ease-out;
@@ -4859,6 +5290,48 @@ a.loadme:hover .post-header .project-btn {
     -webkit-transition-delay: .2s;
     transition-delay: .2s;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5457,6 +5930,48 @@ img .scale_it:hover {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*/aboutus*/
 
 .imgpro {
@@ -5469,6 +5984,48 @@ img .scale_it:hover {
     padding-top: 110px;
     position: relative;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5704,6 +6261,48 @@ body {
 .full-height {
     height: 101vh;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6390,6 +6989,48 @@ video {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* LABEL ======================================= */
 
 .group label {
@@ -6404,6 +7045,48 @@ video {
     -moz-transition: 0.2s ease all;
     -webkit-transition: 0.2s ease all;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6870,6 +7553,48 @@ video {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* BOTTOM BARS ================================= */
 
 .bar {
@@ -6898,6 +7623,48 @@ video {
 .bar:after {
     right: 50%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -7343,6 +8110,48 @@ textarea:focus~.bar:after {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* HIGHLIGHTER ================================== */
 
 .highlight {
@@ -7354,6 +8163,48 @@ textarea:focus~.bar:after {
     pointer-events: none;
     opacity: 0.5;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -7584,6 +8435,48 @@ textarea:focus~.bar:after {
     -moz-animation: inputHighlighter 0.3s ease;
     animation: inputHighlighter 0.3s ease;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -8049,6 +8942,48 @@ textarea:focus~.bar:after {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*/contactus*/
 
 .small_100pw {
@@ -8112,6 +9047,16 @@ textarea:focus~.bar:after {
     .height_100p {
         height: auto;
     }
+
+
+    .carousel-fade .carousel-inner.height_100p .item {
+        height: auto;
+    }
+    .carousel-fade .carousel-inner hr.transition-timer-carousel-progress-bar.animate {
+        display: none;
+    }
+
+
     .carousel-caption.cls_txt h1 {
         font-size: 20px;
     }
@@ -8325,6 +9270,17 @@ textarea:focus~.bar:after {
     }
 }
 
+
+@media screen and (min-width:769px) and (max-width:1400px) {
+    .logo_container {
+        left: 2% !important;
+    }
+    .button_container {
+        right: 2% !important;
+    }
+}
+
+
 @media screen and (min-width: 768px) and (max-width: 1199px) {
     .projects-wrap ul li {
         width: 50%;
@@ -8367,6 +9323,48 @@ textarea:focus~.bar:after {
         float: left;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -8857,6 +9855,14 @@ textarea:focus~.bar:after {
     /**/
 }
 
+
+@media all and (max-width:767px) and (min-width:1px) {
+    .section_footer {
+        display: none;
+    }
+}
+
+
 @media all and (max-width:767px) and (min-width:550px) {
     .artical_image_background {
         height: 400px !important;
@@ -8969,6 +9975,48 @@ textarea:focus~.bar:after {
 p.txt_pdng.font21.line_h45.letter_s2 {
     margin-bottom: 0px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -9465,6 +10513,48 @@ p.txt_pdng.font21.line_h45.letter_s2 {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**/
 
 .blog_detail_heading_padding_left_right h1 {
@@ -9478,6 +10568,48 @@ p.txt_pdng.font21.line_h45.letter_s2 {
 .img_left_margin_blog img {
     width: 100px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -9719,6 +10851,48 @@ p.txt_pdng.font21.line_h45.letter_s2 {
 .set_pos input.wpcf7-form-control {
     margin-top: 30px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -10201,11 +11375,95 @@ p.small_width {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* For Firefox */
 
 input[type='number'] {
     -moz-appearance: textfield;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -10647,6 +11905,48 @@ input[type=number]::-webkit-outer-spin-button {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /**/
 
 .fix_height_hidden {
@@ -10686,6 +11986,48 @@ h2 {
 .section_form h1 {
     direction: rtl;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -10995,6 +12337,48 @@ label {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* new */
 
 .outer {
@@ -11185,6 +12569,7 @@ label {
     overflow: hidden;
     /* margin: 10% 0; */
     padding: 80px 0;
+    width: 100%;
 }
 
 .contents:before {
@@ -11262,6 +12647,48 @@ label {
 .right_padding_0 {
     padding-right: 0px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -11569,6 +12996,48 @@ label {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*carsoul_new*/
 
 .carousel-fade .carousel-inner .item {
@@ -11603,6 +13072,48 @@ label {
 .carousel-fade .carousel-control {
     z-index: 2;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -11794,6 +13305,48 @@ a.right_slide_img {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*latest*/
 
 .slider_carsoul_2 img {
@@ -11825,6 +13378,48 @@ a.right_slide_img {
     height: 225px;
     width: 255px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -12015,6 +13610,48 @@ a.right_slide_img {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*blog-temp*/
 
 .images_button_parts img {
@@ -12050,6 +13687,48 @@ a.right_slide_img {
     height: 140px;
     overflow: hidden;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -12193,6 +13872,48 @@ a.right_slide_img {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*end-blog-temp*/
 
 
@@ -12237,6 +13958,48 @@ a.right_slide_img {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*new_lisa_end*/
 
 
@@ -12273,4 +14036,132 @@ li:nth-of-type(3) .project-btn.relate_pos {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*blog arow_hide*/
+
+
+/*contact_page_tx_msg*/
+
+.contact_page_thax_msg h1 {
+    color: #fff;
+}
+
+.contact_page_thax_msg h2 {
+    color: #fff;
+    margin: 35px 0;
+}
+
+.contact_page_thax_msg .bgbtn {
+    width: auto !important;
+    font-size: 28px !important;
+    border-radius: 0px;
+    padding: 0px 25px !important;
+    line-height: 48px;
+}
+
+.contact_page_thax_msg {
+    text-align: center;
+}
+
+
+.footer_contact_thax_msg h1 {
+    color: rgb(68, 68, 68);
+}
+
+.footer_contact_thax_msg h2 {
+    color: #000;
+    margin: 35px 0;
+}
+
+.footer_contact_thax_msg .bgbtn {
+    width: auto !important;
+    font-size: 28px !important;
+    border-radius: 0px;
+    padding: 0px 25px !important;
+    line-height: 46px !important;
+    color: #333;
+}
+
+.footer_contact_thax_msg {
+    text-align: center;
+    padding: 30px 2em;
+}
+
+.footer_contact_thax_msg .bgbtn:hover {
+    color: #fff !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
+
+.carousel-fade .carousel-inner.height_100p {
+    height: auto;
+}
+
+.carousel-fade .carousel-inner.height_100p .item img {
+    width: 100%;
+}
+
+.carousel.slide.carousel-fade {
+    height: auto !important;
+}
+
+.carousel-fade .carousel-inner hr.transition-timer-carousel-progress-bar.animate {
+    display: none;
+}
