@@ -54,14 +54,39 @@
                 <source src="<?php echo get_field("contact_video"); ?>" type="video/mp4"> Your browser does not support the video tag.
             </video>
             
-            <div class="overlay-desc">   
-                <form method="POST" class="contact_page_form">
+            <div class="overlay-desc"> 
+                <?php 
+                    // echo "<pre>";
+                    // print_r($_POST['your-email']);
+                    // echo "</pre>";
+                    $email = $_POST['your-email'];
+                    if(!empty($email)){
 
-                    <h1 class="font46 text-center font_white bolder margin_b_40">צור קשר</h1>
-                        <?php 
-                            echo do_shortcode( '[contact-form-7 id="449" title="Contact form"]' ); 
+                        $home_url = home_url('/');
                         ?>
-                </form>
+                        <div class="wrapper_1040 contact_page_thax_msg">
+                            <h1 class="font46 font_black bolder rtl">תודה  !</h1>
+                            <h2 class="font18 fontgrey rtl">ניצור איתך קשר בהקדם, בנתיים, למה שלא תשוטטו קצת באתר  ?</h2>         
+
+                            <div class"text-center">
+                               <a href="<?php echo $home_url; ?>"  class="wpcf7-form-control wpcf7-submit btn btn-default text-center bgbtn">לעמוד הבית</a> 
+                            </div>                
+                        </div> 
+                        <?php 
+                    }
+                    else{
+                        ?>
+                            <form method="POST" class="contact_page_form">
+
+                                <h1 class="font46 text-center font_white bolder margin_b_40">צור קשר</h1>
+                                    <?php 
+                                        echo do_shortcode( '[contact-form-7 id="449" title="Contact form"]' ); 
+                                    ?>
+                            </form>
+                            <?php 
+                        } 
+                ?>
+                
             </div>
         </div>
 

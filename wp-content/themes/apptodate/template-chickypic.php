@@ -102,9 +102,7 @@
                 ?>
                 <div class="col-md-6">
                     <div class="mt10 text-right">
-                        <h3 class="bold font35 colorch">
-                                    האתגר הטכנולוגי
-                            </h3>
+                        <h3 class="bold font35 colorch"><?php echo get_field("post_title"); ?></h3>
 
                         <p class="font25 mt0 semibold colorch text-right margin_t_20"><?php echo $content; ?></p>
                             <ul class="font25 mt0 semibold colorch text-right rtl chicky">
@@ -147,9 +145,7 @@
 
                 <div class="col-md-6 nopadding">
                     <div class="mt10 text-right">
-                        <h3 class="bold font35 colorch">
-                                        האתגר הטכנולוגי
-                                </h3>
+                        <h3 class="bold font35 colorch"><?php echo get_field("post_title2"); ?></h3>
 
                         <p class="font25 mt0 semibold colorch text-right margin_t_20">
                             <?php echo $content2; ?>

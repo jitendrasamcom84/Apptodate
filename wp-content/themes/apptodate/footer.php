@@ -1,27 +1,74 @@
-<div class="section_form">
+<div class="section_form"  id="msg">
 
-        <div class="container-fluid nopadding">
-            <div class="col-lg-2 hidden-xs hidden-sm hidden-md nopadding"><img src="<?php echo get_template_directory_uri(); ?>/img/a1.png" class="a_pos1"></div>
+    <div class="container-fluid nopadding">
+        <div class="col-lg-2 hidden-xs hidden-sm hidden-md nopadding"><img src="<?php echo get_template_directory_uri(); ?>/img/a1.png" class="a_pos1"></div>
 
-            <!-- <div class="bg_app"></div> -->
+        <!-- <div class="bg_app"></div> -->
 
-            <div class="col-md-12 col-lg-8 padding_lr_20">
-                <div class="mycontainer">
-                    <h1 class="color_white padding-bottom50 text-center font46 bold margin_tb_0">בואו נגרום לרעיון שלכם להתגשם
-                    </h1>
+        <div class="col-md-12 col-lg-8 padding_lr_20">
+            <div class="mycontainer">
+                <h1 class="color_white padding-bottom50 text-center font46 bold margin_tb_0">בואו נגרום לרעיון שלכם להתגשם
+                </h1>
 
-                    <div class="custom_bg">
-                        <div class="full_div back_white padding20 cus_shadow">
-                            <form method="POST" name="form_name" onload="phonenumber(document.form_name.your-telephone)">
-                                <?php echo do_shortcode( '[contact-form-7 id="101" title="Contact form 1"]' ); ?>
-                            </form>
-                        </div>
+                <div class="custom_bg">
+                    <div class="full_div back_white padding20 cus_shadow">
+
+                        <form method="POST" class="contact_form" name="form_name" id="yourdata" onload="phonenumber(document.form_name.your-telephone)">
+                            <?php 
+                                // echo "<pre>";
+                                // print_r($_POST['your-email']);
+                                // echo "</pre>";
+                                $email = $_POST['your-email'];
+                                
+                                if(!empty($email)){
+                                    $home_url = home_url('/');
+                                        ?>
+
+                                    <script>
+                                        //$('html, body').animate({ scrollTop: 3800 }, 500);
+                                        
+                                            // $(".bgbtn").click(function(){
+
+                                            //     alert("yes");
+                                            // });
+                                    $(document).ready(function(){
+                                        $('form').each(function(){
+                                            $('html, body').animate({ scrollTop: $("#msg").position().top }, 500); // or simple this.id
+                                        });
+                                    });
+                                    </script>
+                                    
+                                    <div class="wrapper_1040 footer_contact_thax_msg">
+                                            <h1 class="font46 font_black bolder rtl">תודה  !</h1>
+                                            <h2 class="font18 fontgrey rtl">ניצור איתך קשר בהקדם, בנתיים, למה שלא תשוטטו קצת באתר  ?</h2>         
+
+                                            <div class"text-center">
+                                               <a href="<?php echo $home_url; ?>" class="wpcf7-form-control wpcf7-submit btn btn-default text-center bgbtn">לעמוד הבית </a>
+                                           </div>                
+                                    </div>
+                                    
+                                    <?php 
+                                }
+                                else
+                                {
+                                    ?>
+                                    <script>
+                                        $(document).ready(function(){
+                                            $('html, body').animate({ scrollTop: 0 });
+                                        });
+                                    </script>
+                                    <?php 
+                                    echo do_shortcode( '[contact-form-7 id="101" title="Contact form 1"]' );
+                                } 
+                            ?>
+                        </form>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-2 hidden-xs hidden-sm hidden-md nopadding"><img src="<?php echo get_template_directory_uri(); ?>/img/a2.png" class="a_pos2"></div>
         </div>
+        <div class="col-lg-2 hidden-xs hidden-sm hidden-md nopadding"><img src="<?php echo get_template_directory_uri(); ?>/img/a2.png" class="a_pos2"></div>
     </div>
+</div>
 <div class="full_div section_footer">
             <div class="container footer_padding">
                 <div class="col-md-12 border_bottom padding_bottom25 padding_lr0">
@@ -86,6 +133,15 @@
 
     
     <script>
+    // $(document).ready(function(){
+    //     $(".footer_contact_thax_msg").hide();
+        
+    //     $(".bgbtn").on("click", function(){
+    //         $(".contact_form").hide();
+    //         $(".footer_contact_thax_msg").show();
+    //         console.log("Click");
+    //     });
+    // });
     
         // $(window).scroll( function() {
         //     if( $(this).scrollTop() > 0 ) {
