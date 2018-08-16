@@ -16,6 +16,10 @@ body {
     object-fit: cover;
 }
 
+.about_icon_research p {
+    line-height: 32px !important;
+}
+
 .rtl {
     direction: rtl;
 }
@@ -32,6 +36,9 @@ body {
 .caption h2 {
     text-align: right !important;
 }
+
+
+
 
 
 
@@ -432,6 +439,9 @@ body {
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
+
+
 
 
 
@@ -1741,6 +1751,9 @@ section {
 
 
 
+
+
+
 /*-------------------------------*/
 
 
@@ -1940,6 +1953,9 @@ section {
     float: left;
     width: 100%;
 }
+
+
+
 
 
 
@@ -2660,6 +2676,9 @@ section {
 
 
 
+
+
+
 /*Additional Styles (required)*/
 
 .cls_mainslider .carousel-indicators {
@@ -2736,6 +2755,9 @@ section {
     border: 0;
     background: no-repeat;
 }
+
+
+
 
 
 
@@ -3190,12 +3212,12 @@ section {
     margin-top: 0;
 }
 
-.lisapage .siteorigin-widget-tinymce .font35 span:first-child{
+.lisapage .siteorigin-widget-tinymce .font35 span:first-child {
     font-size: 31px !important;
     margin-top: 0;
 }
 
-.lisapage .siteorigin-widget-tinymce p{
+.lisapage .siteorigin-widget-tinymce p {
     font-size: 24px;
     font-weight: 500;
     color: #9D9D9D;
@@ -4054,6 +4076,9 @@ body {
 
 
 
+
+
+
 /* show objects being animated */
 
 .animated {
@@ -4074,6 +4099,9 @@ body {
     -o-animation-play-state: running;
     animation-play-state: running;
 }
+
+
+
 
 
 
@@ -4456,6 +4484,9 @@ body {
         opacity: 0;
     }
 }
+
+
+
 
 
 
@@ -5172,6 +5203,9 @@ body {
 
 
 
+
+
+
 /*a.loadme1 .post-header p{
   padding-left: 0px;
   -webkit-transition: all .2s ease-out;
@@ -5290,6 +5324,9 @@ a.loadme:hover .post-header .project-btn {
     -webkit-transition-delay: .2s;
     transition-delay: .2s;
 }
+
+
+
 
 
 
@@ -5972,6 +6009,9 @@ img .scale_it:hover {
 
 
 
+
+
+
 /*/aboutus*/
 
 .imgpro {
@@ -5984,6 +6024,9 @@ img .scale_it:hover {
     padding-top: 110px;
     position: relative;
 }
+
+
+
 
 
 
@@ -6261,6 +6304,9 @@ body {
 .full-height {
     height: 101vh;
 }
+
+
+
 
 
 
@@ -7031,6 +7077,9 @@ video {
 
 
 
+
+
+
 /* LABEL ======================================= */
 
 .group label {
@@ -7045,6 +7094,9 @@ video {
     -moz-transition: 0.2s ease all;
     -webkit-transition: 0.2s ease all;
 }
+
+
+
 
 
 
@@ -7595,6 +7647,9 @@ video {
 
 
 
+
+
+
 /* BOTTOM BARS ================================= */
 
 .bar {
@@ -7623,6 +7678,9 @@ video {
 .bar:after {
     right: 50%;
 }
+
+
+
 
 
 
@@ -8152,6 +8210,9 @@ textarea:focus~.bar:after {
 
 
 
+
+
+
 /* HIGHLIGHTER ================================== */
 
 .highlight {
@@ -8163,6 +8224,9 @@ textarea:focus~.bar:after {
     pointer-events: none;
     opacity: 0.5;
 }
+
+
+
 
 
 
@@ -8694,6 +8758,9 @@ textarea:focus~.bar:after {
 
 
 
+
+
+
 /* ANIMATIONS ================ */
 
 @-webkit-keyframes inputHighlighter {
@@ -8725,6 +8792,9 @@ textarea:focus~.bar:after {
         background: transparent;
     }
 }
+
+
+
 
 
 
@@ -9323,6 +9393,9 @@ textarea:focus~.bar:after {
         float: left;
     }
 }
+
+
+
 
 
 
@@ -10234,6 +10307,9 @@ p.txt_pdng.font21.line_h45.letter_s2 {
 
 
 
+
+
+
 /*.opa0{
     opacity: 0;
     font-size: 37px;
@@ -10555,6 +10631,9 @@ p.txt_pdng.font21.line_h45.letter_s2 {
 
 
 
+
+
+
 /**/
 
 .blog_detail_heading_padding_left_right h1 {
@@ -10568,6 +10647,9 @@ p.txt_pdng.font21.line_h45.letter_s2 {
 .img_left_margin_blog img {
     width: 100px;
 }
+
+
+
 
 
 
@@ -11110,6 +11192,9 @@ p.txt_pdng.font21.line_h45.letter_s2 {
 
 
 
+
+
+
 /*.slider_carsoul_2{width: 225px;
     height: 225px;
     overflow: hidden;}*/
@@ -11135,7 +11220,7 @@ p.small_width {
 }
 
 .img-height_about img {
-    height: 145px;
+    height: 110px;
 }
 
 .blog_video .wp-video {
@@ -11417,11 +11502,17 @@ p.small_width {
 
 
 
+
+
+
 /* For Firefox */
 
 input[type='number'] {
     -moz-appearance: textfield;
 }
+
+
+
 
 
 
@@ -11947,6 +12038,9 @@ input[type=number]::-webkit-outer-spin-button {
 
 
 
+
+
+
 /**/
 
 .fix_height_hidden {
@@ -11986,6 +12080,9 @@ h2 {
 .section_form h1 {
     direction: rtl;
 }
+
+
+
 
 
 
@@ -12218,6 +12315,9 @@ label {
     position: absolute;
     top: 0px;
 }
+
+
+
 
 
 
@@ -12640,6 +12740,19 @@ label {
         font-size: 18px;
         color: white;
     }
+    .images_button_parts img {
+        max-width: 100% !important;
+    }
+    .blog_temp_page h1 {
+        font-size: 32px !important;
+    }
+    .blog_temp_page .font25 {
+        font-size: 20px !important;
+    }
+    .projects_title.blog_temp_page {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
 
 
@@ -12647,6 +12760,9 @@ label {
 .right_padding_0 {
     padding-right: 0px;
 }
+
+
+
 
 
 
@@ -13038,6 +13154,9 @@ label {
 
 
 
+
+
+
 /*carsoul_new*/
 
 .carousel-fade .carousel-inner .item {
@@ -13072,6 +13191,9 @@ label {
 .carousel-fade .carousel-control {
     z-index: 2;
 }
+
+
+
 
 
 
@@ -13347,6 +13469,9 @@ a.right_slide_img {
 
 
 
+
+
+
 /*latest*/
 
 .slider_carsoul_2 img {
@@ -13378,6 +13503,9 @@ a.right_slide_img {
     height: 225px;
     width: 255px;
 }
+
+
+
 
 
 
@@ -13652,6 +13780,9 @@ a.right_slide_img {
 
 
 
+
+
+
 /*blog-temp*/
 
 .images_button_parts img {
@@ -13687,6 +13818,9 @@ a.right_slide_img {
     height: 140px;
     overflow: hidden;
 }
+
+
+
 
 
 
@@ -13914,6 +14048,9 @@ a.right_slide_img {
 
 
 
+
+
+
 /*end-blog-temp*/
 
 
@@ -13950,6 +14087,9 @@ a.right_slide_img {
 .lisa_thard_part {
     margin-bottom: 60px;
 }
+
+
+
 
 
 
@@ -14071,6 +14211,9 @@ li:nth-of-type(3) .project-btn.relate_pos {
 
 
 
+
+
+
 /*blog arow_hide*/
 
 
@@ -14124,6 +14267,9 @@ li:nth-of-type(3) .project-btn.relate_pos {
 .footer_contact_thax_msg .bgbtn:hover {
     color: #fff !important;
 }
+
+
+
 
 
 

@@ -32,7 +32,7 @@ jQuery(function($) {
             $animatables = $('.animatable');
 
         // Unbind scroll handler if we have no animatables
-        if ($animatables.size() == 0) {
+        if ($animatables.height() == 0) {
             $(window).off('scroll', doAnimations);
         }
 

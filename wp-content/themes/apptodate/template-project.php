@@ -42,10 +42,7 @@
                         $post_id = get_post($page_id);
                         $id = $post_id->ID;
                         //echo $id;
-                    
-                        
-                       
-                      ?>
+                        ?>
                         <li>
                             <?php 
                                 if($id == "371" || $id == "680" || $id == "707" ){
