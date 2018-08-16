@@ -64,7 +64,7 @@
     </div>
 
         <div class="get_float bgf7">
-            <div class="container pddi_tb">
+            <div class="container pddi_tb about_icon_research">
             	<?php 
             		if( have_rows('about_second_section') ):
             
@@ -75,7 +75,9 @@
 				            $about_featured_description = get_sub_field('about_featured_description'); 
 				            ?>
 			                <div class="col-sm-6 col-lg-3 text-center img-height_about">
+			                	<div class="img_back">
 			                    <img src="<?php echo $about_featured_image; ?>">
+			                    </div>
 			                    <h1 class="bold margin_t_20" style="margin-bottom: 30px !important"><?php echo $about_featured_title; ?></h1>
 
 			                    <p class="semibold font14" style="margin:0px;"><?php echo $about_featured_description; ?></p>
