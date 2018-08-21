@@ -8,7 +8,7 @@
 <div class="">
     <div class="mt10 pull-right ptb50 text-right logo_change">
         <h3 class="container bold font35 colorch" style="padding: 0">
-            <?php echo $post->post_title; ?>
+            <?php //echo $post->post_title; ?>
         </h3>
         <?php 
             if ( have_posts() ) :
